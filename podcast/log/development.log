@@ -1,0 +1,749 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 02:54:28 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/railties-4.2.7/lib/rails/templates/rails/welcome/index.html.erb (6.6ms)
+Completed 200 OK in 94ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:31:00 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (34.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (39.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (204.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (167.0ms)
+
+
+Started POST "/__web_console/repl_sessions/d35e8104bc82880399a2ba2e1407adf4/trace" for 127.0.0.1 at 2017-07-20 03:31:31 +0200
+
+
+Started POST "/__web_console/repl_sessions/d35e8104bc82880399a2ba2e1407adf4/trace" for 127.0.0.1 at 2017-07-20 03:31:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:32:13 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:36:06 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (33.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (126.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (71.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (132.6ms)
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:40 +0200
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:40 +0200
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:41 +0200
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:41 +0200
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:41 +0200
+
+
+Started POST "/__web_console/repl_sessions/f229068c443baee7423046ff7ffefeb5/trace" for 127.0.0.1 at 2017-07-20 03:36:41 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:38:27 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:38:30 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:38:47 +0200
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (37.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (75.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:39:19 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:7: syntax error, unexpected ':', expecting =>
+...'all', 'data-turbolinks-track': 'reload' );@output_buffer.sa...
+...                               ^
+/home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:8: syntax error, unexpected ':', expecting ')'
+...tion', 'data-turbolinks-track': 'reload' );@output_buffer.sa...
+...                               ^):
+  app/views/layouts/application.html.erb:7: syntax error, unexpected ':', expecting =>
+  app/views/layouts/application.html.erb:8: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (43.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:42:05 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/podcast_fm/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/podcast_fm/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb___681844669__622353008 at /home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/podcast_fm/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/podcast_fm/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb___681844669__622353008 at /home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/podcast_fm/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/podcast_fm/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb___681844669__622353008 at /home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/podcast_fm/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/podcast_fm/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb___681844669__622353008 at /home/saber/Desktop/podcast_fm/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 3394ms (Views: 3358.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 03:42:09 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 03:42:09 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 03:42:09 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 03:42:09 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 03:42:10 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 03:42:10 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 03:42:10 +0200
+  [1m[36m (64.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (57.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateUsers (20170720014712)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170720014712"]]
+  [1m[36m (66.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/user/sign_up" for 127.0.0.1 at 2017-07-20 03:48:25 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/saber/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/saber/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/saber/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (33.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (80.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 03:48:34 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 936ms (Views: 866.8ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-20 03:48:52 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uFGK95DtLBvajVc4ID9xqWkfo3HJT5x8A3E5U77I3ITK4js+6kreQX9VJWukKfByKGeEwj9q38EVWLypyDxkqg==", "user"=>{"email"=>"sa@sa.sa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'sa@sa.sa' LIMIT 1[0m
+  [1m[35mSQL (3.1ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "sa@sa.sa"], ["encrypted_password", "$2a$11$4JDm.EuuaiZGa6KWcOK/4eC0Uf3unxVme8LrEA2xTrDW7agzknTcq"], ["created_at", "2017-07-20 01:48:53.158438"], ["updated_at", "2017-07-20 01:48:53.158438"]]
+  [1m[36m (45.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-07-20 01:48:53.214756"], ["current_sign_in_at", "2017-07-20 01:48:53.214756"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2017-07-20 01:48:53.217357"], ["id", 1]]
+  [1m[35m (58.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 622ms (ActiveRecord: 108.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 03:48:53 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:04:28 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 982ms (Views: 943.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:04:29 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:04:29 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:04:30 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:04:30 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:04:30 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:04:30 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:04:32 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 04:05:11 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 172ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:05:12 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:09:06 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:09:06 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:07 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:07 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:07 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:07 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:07 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:09:08 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:09:30 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:09:31 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:09:32 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 04:09:34 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:09:35 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:12:33 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/saber/Desktop/rails/app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+<p class="alert"><%= alert );@output_buffer.safe_append='</p>
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+<p class="alert"><%= alert );@output_buffer.safe_append='</p>
+                  ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_elsif
+'.freeze;@output_buffer.append=( elsif notice >
+                                      ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+<p class="notice"><%= notice );@output_buffer.safe_append='</p>
+                   ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end >
+                                    ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_elsif
+  app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_end
+  app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (146.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:12:51 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/saber/Desktop/rails/app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+<p class="alert">
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+<%= alert );@output_buffer.safe_append='
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_elsif
+'.freeze;@output_buffer.append=( elsif notice >
+                                      ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+<%= notice );@output_buffer.safe_append='
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end >
+                                    ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:11: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_elsif
+  app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end
+  app/views/layouts/application.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (66.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:14:36 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/saber/Desktop/rails/app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+<p class="alert">
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+<%= alert 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_elsif, expecting keyword_end
+'.freeze; elsif notice >
+               ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+<%= notice 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+<%= yield 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_elsif, expecting keyword_end
+  app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (34.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (96.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:14:55 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/saber/Desktop/rails/app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+<p class="alert">
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+<% alert 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_elsif, expecting keyword_end
+'.freeze; elsif notice >
+               ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+<% notice 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+<%= yield 
+ ^
+/home/saber/Desktop/rails/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_elsif, expecting keyword_end
+  app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (41.9ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.8ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.5ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/saber/.rvm/gems/ruby-2.1.5@rails427/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:27 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:17:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:17:51 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:17:52 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:17:53 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 04:17:57 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:17:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-f50e0170f467c09b63e4890435d7fd9796fbf9a4386f1e81619b85b3a2c2bf53.css?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 04:22:11 +0200
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 04:22:12 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-07-20 04:22:15 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MVvggAyZPbQ8nLbK60jT2rIEb4H19tnAZU0ctG/M0flD6FFJdj7P7plExJlvXlIB83xIMgPTmn1zZJlOGThp1w=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:22:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 04:22:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (103.6ms)
+Completed 200 OK in 189ms (Views: 181.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-07-20 04:22:26 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"scvh93tywgTP3NJc2LTiNoFDM23cYm+ai36Yy56p0LYk31HbnQTrnLxUlRxzv/kdYAhz8WWvaFc3UWHYe+Q0jw==", "user"=>{"email"=>"sa@sa.sa", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "sa@sa.sa"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2017-07-20 02:22:26.954968"], ["sign_in_count", 2], ["updated_at", "2017-07-20 02:22:26.957992"], ["id", 1]]
+  [1m[35m (53.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 406ms (ActiveRecord: 56.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 04:22:27 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.3ms)
