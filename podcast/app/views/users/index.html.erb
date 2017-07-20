@@ -1,0 +1,26 @@
+<div id="banner" class="podcasts_banner">
+	<h1>Discover your new favorite podcast</h1>
+</div>
+<div id="podcasts" class="cf">
+	<div class="wrapper">
+		<ul>
+			<%= @users.each do |user| %>
+			<%= link_to user do %>
+				<li>
+					<img src="images/narwhales.jpg" alt="">
+					<div class="podcast_overview">
+					<h2><%= user.title %></h2>
+					<p class="episode_count">1 Episode</p>
+					</div>
+				</li>
+			<% end %>
+			<% end %>
+			</ul>
+</div>
+</div>
+<div class="pagination">
+	<span class="previous_page disabled">Previous</span>
+	<em class="current">1</em>
+	<a href="#">2</a>
+	<a href="#" class="next_page">Next</a>
+</div>

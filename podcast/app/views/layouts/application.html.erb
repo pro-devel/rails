@@ -24,12 +24,12 @@
     <nav>
       <ul>
         <% unless user_signed_in? %>
-        <li><a href="#">Explore</a></li>
+        <li><%= link_to 'Explore', users_path %></li>
         <li><%= link_to 'Sign In', new_user_session_path %></li>
         <li><%= link_to 'Create a Podcast', new_user_registration_path %></li>
       <% else %>
-      <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Explore</a></li>
+        <li><%= link_to 'Dashboard', edit_user_registration_path %></li>
+        <li><%= link_to 'Explore', users_path %></li>
         <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
       <% end %>
       </ul>

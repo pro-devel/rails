@@ -30,16 +30,26 @@
 				}
 			}
 		}
-		&:hover {
+		a:hover {
 			img {
 				opacity: .8;
 			}
 			.podcast_overview {
 				h2{
-				color:$highlight;	
+					color:$highlight;	
 				}
 			}
 		}
+		// &:hover {
+		// 	img {
+		// 		opacity: .8;
+		// 	}
+		// 	.podcast_overview {
+		// 		h2{
+		// 		color:$highlight;	
+		// 		}
+		// 	}
+		// }
 	}
 }
 

@@ -1,0 +1,84 @@
+<div id="podcast_show">
+	<div id="show_banner">
+		<div class="wrapper_skinny">
+		<h1><%= @users.title %></h1>
+			<p id="description">
+				<%= @users.description %>
+			</p>
+			<% unless @users.itunes.blank? %>
+				<a href="<%= @users.itunes %>" target="_blank" class="subscribe_button">iTunes</a>
+			<% end %>
+
+			<% unless @users.stitcher.blank? %>
+				<a href="<%= @users.stitcher %>" target="_blank" class="subscribe_button">Stitcher</a>
+			<% end %>
+
+			<% unless @users.podbay.blank? %>
+				<a href="<%= @users.podbay %>" target="_blank" class="subscribe_button">PodBay</a>
+			<% end %>
+		</div>
+	</div>
+
+	<div id="breadcrumb">
+		<%= link_to users_path do %>
+			all podcasts
+		<% end %>
+		<span>/</span>
+		<a href="#">The Rocketship Podcast</a>
+	</div>
+
+	<div id="episodes">
+		<div class="wrapper_skinny">
+			<ul class="cf">
+				<li class="cf">
+					<div class="episode_thumbnail">
+						<a href="#">
+							<img src="images/seenwes.svg" alt="">
+						</a>
+					</div>
+					<div class="episode_overview">
+						<h2><a href="episode.html">The Episode Title Goes Here</a></h2>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, dolor dolore nemo quaerat ex at qui beatae totam placeat deserunt, illum vel, nisi, explicabo aut magnam voluptas eius assumenda modi?
+						</p>
+					</div>
+				</li>
+				<!-- end episode -->
+				<li class="cf">
+					<div class="episode_thumbnail">
+						<a href="#">
+							<img src="images/seenwes.svg" alt="">
+						</a>
+					</div>
+					<div class="episode_overview">
+						<h2><a href="#">The Episode Title Goes Here</a></h2>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, dolor dolore nemo quaerat ex at qui beatae totam placeat deserunt, illum vel, nisi, explicabo aut magnam voluptas eius assumenda modi?
+						</p>
+					</div>
+				</li>
+				<!-- end episode -->
+				<li class="cf">
+					<div class="episode_thumbnail">
+						<a href="#">
+							<img src="images/seenwes.svg" alt="">
+						</a>
+					</div>
+					<div class="episode_overview">
+						<h2><a href="#">The Episode Title Goes Here</a></h2>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, dolor dolore nemo quaerat ex at qui beatae totam placeat deserunt, illum vel, nisi, explicabo aut magnam voluptas eius assumenda modi?
+						</p>
+					</div>
+				</li>
+				<!-- end episode -->
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="pagination">
+	<span class="previous_page disabled">Previous</span>
+	<em class="current">1</em>
+	<a href="#">2</a>
+	<a href="#" class="next_page">Next</a>
+</div>
