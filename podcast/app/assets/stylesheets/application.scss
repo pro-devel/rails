@@ -69,7 +69,8 @@ border:0;
 		}
 		nav {
 			float:right;
-			margin-bottom:2.5rem;
+			-webkit-margin-bottom:2.5rem;
+			// margin-bottom:2.5rem;
 			ul {
 				margin:0;
 				list-style: none;
@@ -101,15 +102,15 @@ border:0;
 	}
 }
 .podcasts_banner {
-	background: url('../images/podcast_banner.jpg');
+	background: image-url('podcast_banner.jpg');
 }
 .sign-in_banner {
-	background: url('../images/sign-in.jpg');
+	background: image-url('sign-in.jpg');
 	filter: saturate(2);
 }
 
 .sign-up_banner {
-	background: url('../images/sign-up.jpg');
+	background: image-url('sign-up.jpg');
 	filter: saturate(2);
 }
 

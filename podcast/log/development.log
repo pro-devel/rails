@@ -987,3 +987,441 @@ Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 14:53:01 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-07-20 15:17:29 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/K0eCxOaJ/rqul/2f9+OsJ9keGwWNQMkzxbmIP2v4ZSsdI7SVxZQEKBKNhM0Qdm/sGzcKP8d3bVClnfw0miBuA=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 15:17:29 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 674ms (Views: 671.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3fc4ce8f516f872e4cbf019153b2d401854376672919a45630c9527871e50f16.css?body=1" for 127.0.0.1 at 2017-07-20 15:17:30 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 15:17:34 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:17:39 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 88ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:17:39 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 108ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3fc4ce8f516f872e4cbf019153b2d401854376672919a45630c9527871e50f16.css?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:21:55 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:21:56 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:25:02 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 133ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3fc4ce8f516f872e4cbf019153b2d401854376672919a45630c9527871e50f16.css?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:03 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:25:04 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:25:36 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 454ms (Views: 451.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4cf51a5bbb508fef786cce2d70058dc4f0f4a9b7c5d683de4266f6835417705f.css?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:37 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:25:38 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:25:56 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (27.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 466ms (Views: 463.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ffafc0b644440424da9df95c97fdab11b4b7e951df791c4bc6f618a862aa929a.css?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:25:57 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:25:58 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:27:15 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.css.scss to /home/saber/Desktop/rails/podcast/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__451581073__619457998 at /home/saber/Desktop/rails/podcast/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 434ms (Views: 429.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:27:16 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:27:17 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 134ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:28:19 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:28:20 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:28:23 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 120ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:28:26 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 95ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:28:26 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 94ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:29:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 144ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sign-in-ebde5503d6836c5913d68dee6f6063a4ae752080ff5956b91c91c60f7294cf0b.jpg" for 127.0.0.1 at 2017-07-20 15:29:50 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:31:30 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 113ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:31:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 106ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:33:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 133ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 15:33:49 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg-4541ad2323de36f1860b1e9546aaff4d275860bab102ebbd2faacaca070aa129.jpg" for 127.0.0.1 at 2017-07-20 15:33:50 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:38:23 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-07-20 15:39:03 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 126ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:39:04 +0200
+
+
+Started GET "/assets/sign-up-267f21c629490f5143d8d1df5d50c2bd0a1c546fffe6bf547d97993c716d6366.jpg" for 127.0.0.1 at 2017-07-20 15:39:06 +0200
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-20 15:39:12 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pL2QOaqbMEjAHHK/VhQ+u+EyAXdQbTgbJRtEmcNrVuL7pUme5yCi4qAqA1YF7UG32zESuO+lNu76Lcv1Rl5nvA==", "user"=>{"title"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+Unpermitted parameter: title
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 111ms (Views: 77.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:47:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 107ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:48:26 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 132ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:48:27 +0200
+
+
+Started GET "/assets/sign-in-ebde5503d6836c5913d68dee6f6063a4ae752080ff5956b91c91c60f7294cf0b.jpg" for 127.0.0.1 at 2017-07-20 15:48:30 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 105ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:49:11 +0200
+
+
+Started GET "/assets/sign-in-ebde5503d6836c5913d68dee6f6063a4ae752080ff5956b91c91c60f7294cf0b.jpg" for 127.0.0.1 at 2017-07-20 15:49:12 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-07-20 15:49:27 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QHfDUcQecn8WNBJct/G7C2it/CdSI4aUV8lRsIOHKP0fbxr2iaXg1XYCY7XkCMQHUq7v6O3riGGI/97cBrIZow==", "user"=>{"email"=>"sa@sa.sa", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "sa@sa.sa"]]
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-07-20 12:32:23.292069"], ["current_sign_in_at", "2017-07-20 13:49:28.147646"], ["sign_in_count", 4], ["updated_at", "2017-07-20 13:49:28.150441"], ["id", 1]]
+  [1m[35m (42.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 330ms (ActiveRecord: 45.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 15:49:28 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2017-07-20 15:49:45 +0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 96ms (Views: 90.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 146ms (Views: 131.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-0bba03100c5d91aafb01e608dbddaa336136392b867a96ddcbc3c22b4e41f0d7.css?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-07-20 15:51:00 +0200
