@@ -24,7 +24,21 @@
 			all podcasts
 		<% end %>
 		<span>/</span>
+		<%= link_to user_path(@user) do %>
 			<%= @user.title %>
+		<% end %>
+		<span>/</span>
+		<%= @episode.title %>
+	</div>
+
+	<div id="episode_content">
+		<div class="wrapper_skinny">
+			<img src="images/seenwes.svg" class="current_episode_thumbnail" alt="">
+			<h2><%= @episode.title %></h2>
+			<p class="description">
+			<%= @episode.description %>
+			</p>
+		</div>
 	</div>
 
 	<div id="episodes">
