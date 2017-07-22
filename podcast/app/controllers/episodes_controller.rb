@@ -1,10 +1,27 @@
 class EpisodesController < ApplicationController
 	before_action :find_user
-	before_action :find_episode, only: [:show]
+	before_action :find_episode
 
 
 	def new 
 		@episode = @user.episodes.new
+	end
+
+	def edit
+
+	end
+
+	def update
+		if @episode.update episode_params
+			redirect_to user_episode_path(@user, @episode), notice: "Episode updated"
+		else
+			render 'new'
+		end
+	end
+
+	def destroy
+		@episode.destroy
+		redirect_to root_path
 	end
 
 	def create 
@@ -12,7 +29,7 @@ class EpisodesController < ApplicationController
 		if @episode.save
 			redirect_to user_episode_path(@user, @episode)
 		else
-			render 'new'
+			render 'edit'
 		end
 	end
 
@@ -31,6 +48,10 @@ class EpisodesController < ApplicationController
 	end
 
 	def find_episode
-		@episode = Episode.find(params[:id])
+		if params[:id].nil?
+			@episode = current_episode
+		else
+			@episode = Episode.find(params[:id])
+		end
 	end
 end
