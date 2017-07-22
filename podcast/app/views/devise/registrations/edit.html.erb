@@ -8,10 +8,10 @@
     <div id="links">
       <div class="wrapper_skinny">
         <ul>
-          <li><a href="#">Episodes</a></li>
-          <li><a href="#">New Episode</a></li>
-          <li><%= link_to 'Account Setting', edit_user_registration_path, class: "current" %></li>
-          <li><a href="#">View Podcast</a></li>
+          <li><%= link_to 'Episodes', authenticated_root_path  %></li>
+          <li><%= link_to 'New Episode', new_user_episode_path(@user)  %></li>
+          <li><%= link_to 'Account Setting', edit_user_registration_path , class: "current"  %></li>
+          <li><%= link_to 'View Podcast', user_path(@user)  %></li>
         </ul>
       </div>
     </div>

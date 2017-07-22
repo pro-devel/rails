@@ -1,0 +1,53 @@
+  <div id="podcast_show">
+    <div id="show_banner">
+      <div class="wrapper">
+        <h1>The RocketShip Podcast Dashboard</h1>
+      </div>
+    </div>
+
+    <div id="links">
+      <div class="wrapper_skinny">
+        <ul>
+          <li><%= link_to 'Episodes', authenticated_root_path , class: "current"  %></li>
+          <li><%= link_to 'New Episode', new_user_episode_path(@user)  %></li>
+          <li><%= link_to 'Account Setting', edit_user_registration_path  %></li>
+          <li><%= link_to 'View Podcast', user_path(@user)  %></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="episodes">
+      <div class="wrapper_skinny">
+        <ul class="cf">
+          <% @episodes.each do |episode| %>
+          <li class="cf">
+            <div class="episode_thumbnail">
+              <a href="#">
+                <img src="images/seenwes.svg" alt="">
+              </a>
+            </div>
+            <div class="episode_overview">
+              <h2><%= link_to episode.title, user_episode_path(@user, episode) %></h2>
+              <p class="description">
+                <%= episode.description %>
+              </p>
+              <div class="authorized_links">
+                <%= link_to "Edit", edit_user_episode_path(@user, episode) %>
+                <%= link_to "Delete", user_episode_path(@user, episode), method: :delete, data: {confirm: "Are you sure ?"} %>
+              </div>
+            </div>
+          </li>
+          <% end %>
+          <!-- end episode -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="pagination">
+    <span class="previous_page disabled">Previous</span>
+    <em class="current">1</em>
+    <a href="#">2</a>
+    <a href="#" class="next_page">Next</a>
+  </div>
+
+  </div>
